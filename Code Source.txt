@@ -1,15 +1,121 @@
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button.btn-full-width.btn-common-play-game-lg.btn-primary-md.btn-min-width {
+  background-color: #6aa84f;
+  border-style: inset;
+}
+
 div.content {
-    text-transform: none;
-    background-color: #36394f !important;
-    text-align: center;
-    color: #ffffff !important;
+  background-color: #36394f;
+  border-color: #36394f;
+  border-style: none;
+  color: #ffffff;
+  text-align: center;
 }
 
-div.game-card-info .info-label {
-    color: #ffffff !important; /* Couleur du texte */
+div.col-xs-12.btr-game-main-container.section-content {
+  background-color: #36394f;
+  color: #ffffff;
 }
 
-div.game-card-info .info-label.icon-votes-gray,
-div.game-card-info .info-label.icon-playing-counts-gray {
-    filter: brightness(100%) !important; /* Change la luminosité pour rendre les icônes en vecteur blanches */
+pre.text.game-description.linkify {
+  text-align: center;
+  color: #ffffff;
 }
+
+span.text-label {
+  color: #ffffff;
+}
+
+div.game-creator {
+  color: #ffffff;
+}
+
+a.text-name.text-overflow {
+  color: #ffff00;
+}
+
+ul.border-top.border-bottom.game-stats-container.follow-button-enabled {
+  color: #ffffff;
+}
+
+p.text-label.text-overflow.font-caption-header {
+  color: #93c47d;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 14px;
+}
+
+li.game-stat.game-stat-width-voice {
+  color: #fff2cc;
+}
+
+p.text-lead.font-caption-body.wait-for-i18n-format-render {
+  color: #cfe2f3;
+  font-weight: 900;
+  font-style: normal;
+}
+
+p.text-lead.font-caption-body {
+  color: #6fa8dc;
+  text-transform: capitalize;
+}
+
+p.text-lead.font-caption-body.date-time-i18n {
+  color: #6fa8dc;
+  font-weight: 900;
+  font-style: normal;
+}
+
+a.text-report.abuse-report-modal {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 14px;
+}
+
+a.rbx-tab-heading {
+  color: #ffffff;
+  background-color: #6e76af;
+  border-style: none;
+}
+
+div.tab-pane.game-instances.section-content.active {
+  background-color: #36394f;
+  color: #ffffff;
+  text-align: center;
+}
+
+span.text-lead {
+  color: #ffffff;
+  text-transform: none;
+  text-decoration: none;
+  font-weight: 900;
+  font-style: normal;
+}
+
+div.row.page-content.inline-social {
+  background-color: #36394f;
+}
+
+li.btr-pager-first {
+  background-color: #474d7b;
+  border-color: #6d9eeb;
+  border-style: outset;
+}
+
+li.btr-pager-prev {
+  background-color: #474d7b;
+  border-style: outset;
+  border-color: #6d9eeb;
+}
+
+li.btr-pager-next {
+  background-color: #474d7b;
+  border-color: #6d9eeb;
+ 
