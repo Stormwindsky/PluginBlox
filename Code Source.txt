@@ -1,0 +1,15 @@
+div.content {
+    text-transform: none;
+    background-color: #36394f !important;
+    text-align: center;
+    color: #ffffff !important;
+}
+
+div.game-card-info .info-label {
+    color: #ffffff !important; /* Couleur du texte */
+}
+
+div.game-card-info .info-label.icon-votes-gray,
+div.game-card-info .info-label.icon-playing-counts-gray {
+    filter: brightness(100%) !important; /* Change la luminosité pour rendre les icônes en vecteur blanches */
+}
