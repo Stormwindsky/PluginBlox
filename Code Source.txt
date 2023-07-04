@@ -1,20 +1,16 @@
 @import url(https://fonts.googleapis.com/css2?family=Fira+Code:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-.button.btn-full-width.btn-common-play-game-lg.btn-primary-md.btn-min-width {
+button.btn-full-width.btn-common-play-game-lg.btn-primary-md.btn-min-width {
   background-color: #6aa84f;
   border-style: inset;
 }
 
 div.content {
-  background-color: #36394f;
+  background-color: #36394f !important;
   border-color: #36394f;
   border-style: none;
-  color: #ffffff;
+  color: #ffffff !important;
   text-align: center;
 }
 
@@ -118,4 +114,177 @@ li.btr-pager-prev {
 li.btr-pager-next {
   background-color: #474d7b;
   border-color: #6d9eeb;
- 
+  border-style: inset;
+}
+
+li.btr-pager-last {
+  background-color: #474d7b;
+  border-color: #6d9eeb;
+  border-style: inset;
+}
+
+div.game-card-container {
+  background-color: #36394f;
+  color: #ffffff;
+}
+
+div.media-body.list-view-features.roblox-game-card-container {
+  background-color: #36394f;
+  color: #ffffff;
+}
+
+div.game-card-container.roblox-game-card-container-media {
+  background-color: #36394f;
+  color: #ffffff;
+}
+
+a.game-card-link {
+  color: #ffffff;
+}
+
+span.tag-link-text {
+  color: #6fa8dc;
+}
+
+div.text-overflow.roblox-game-card-ellipsis-link {
+  color: #ffffff;
+}
+
+span.tag-link-text.trending-search-title {
+  color: #ffacac;
+}
+
+div.overflow-visible.text-link-base.text-overflow.roblox-game-card-ellipsis-link {
+  color: #ffffff;
+}
+
+span.tag-link-text.trending-search-title.category-link {
+  color: #ffacac;
+}
+
+a.roblox-game-card-play-button {
+  background-color: #6aa84f;
+  border-style: outset;
+}
+
+span.text-lead.games-center-nav-option-text {
+  color: #ffffff;
+}
+
+div.centered-game-cards-container {
+  background-color: #36394f;
+  color: #ffffff;
+}
+
+h3.font-caption-header.game-card-name {
+  color: #ffffff;
+}
+
+div.roblox-game-card-name-top-left {
+  color: #ffffff;
+}
+
+a.roblox-game-card-username-link {
+  color: #ffffff;
+}
+
+span.playing-count {
+  color: #ffffff;
+}
+
+div.text-overflow.roblox-game-card-ellipsis-description {
+  color: #ffffff;
+}
+
+div.overflow-visible.text-link-base.text-overflow.roblox-game-card-ellipsis-description {
+  color: #ffffff;
+}
+
+span.roblox-game-card-price {
+  color: #ffffff;
+}
+
+div.roblox-game-card-votes {
+  color: #ffffff;
+}
+
+span.roblox-game-card-percentage {
+  color: #ffffff;
+}
+
+span.roblox-game-card-count {
+  color: #ffffff;
+}
+
+span.roblox-game-card-type {
+  color: #ffffff;
+}
+
+div.list-view-no-views {
+  color: #ffffff;
+}
+
+span.roblox-game-card-info {
+  color: #ffffff;
+}
+
+span.roblox-game-card-category {
+  color: #ffffff;
+}
+
+a.text-name.text-overflow.roblox-game-card-ellipsis-link {
+  color: #ffffff;
+}
+
+span.text-extra-game-card-info {
+  color: #ffffff;
+}
+
+div.overflow-visible.text-overflow.roblox-game-card-ellipsis-link {
+  color: #ffffff;
+}
+
+span.tag-link-text.category-link {
+  color: #6fa8dc;
+}
+
+div.row.page-content.footer-container {
+  background-color: #474d7b;
+  color: #ffffff;
+}
+
+div.text-right.pull-right.footer-section-right {
+  color: #ffffff;
+}
+
+a.text-right.pull-right.footer-section-right {
+  color: #ffffff;
+}
+
+a.text-right.pull-right.footer-section-right.footer-support-link {
+  color: #ffffff;
+}
+
+span.text-right.pull-right.footer-section-right {
+  color: #ffffff;
+}
+
+div.row.page-content.footer-container .text-right.pull-right.footer-section-right {
+  color: #ffffff;
+}
+
+a.text-right.pull-right.footer-section-right {
+  color: #ffffff;
+}
+
+span.text-right.pull-right.footer-section-right {
+  color: #ffffff;
+}
+
+a.text-right.pull-right.footer-section-right.footer-support-link {
+  color: #ffffff;
+}
+
+div.text-right.pull-right.footer-section-right {
+  color: #ffffff;
+}
